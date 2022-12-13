@@ -1,0 +1,131 @@
+
+
+*{
+    margin: 0;
+    padding: 0px;
+    
+  }
+  .baba{
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav {
+    padding: 15px; 
+    display: flex;
+    align-items: center;
+    padding-top: 4vh;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-image: url("C:\Users\User\OneDrive\Desktop\shkoll\babakingi3-main\public\bg2.jpg");
+  }
+  .hero {
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("C:\Users\User\OneDrive\Desktop\shkoll\babakingi3-main\public\bg.jpg");
+    background-size: cover;
+    border-bottom: 2px solid royalblue;
+  }
+  .p1 {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px 0;
+    font-style: italic;
+  
+  }
+  .h1 {
+    margin-bottom: -10px;
+  }
+  .b1 {
+      padding: 15px 60px;
+      background-color: rgb(172, 17, 17);
+      transition: 0.2s;
+      color: royalblue;
+      text-decoration: none;
+  }
+  .b1:hover { 
+    color: rgb(172, 17, 17);
+    padding: 15px 60px;
+    border: 2px  solidrgb(172, 17, 17);
+    background-color: royalblue;
+    transition: 0.7s;
+    cursor:pointer;
+    text-decoration: none; 
+    
+  }
+  .my-div {
+    background-image: url(shoph.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 150px;
+    
+  }
+  .text2 {
+    margin: 30px ;
+    margin-left: 30vh;
+  }
+  .linkat {
+    display: table;
+  
+  }
+  ul#linkat-horizontal {
+      min-width: 696px;
+      list-style: none;
+      padding-top: 0;
+      display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-left: 45px;
+   
+      }
+      ul#linkat-horizontal li {
+          display: inline;
+      }
+    .linkat ul li { padding:20px }
+  
+  .baba-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #db2b39;
+    border: 2px solid #5290c1;
+  }
+  .outer-links {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    
+  }
+  
+  li a {
+    text-decoration: none;
+    color: black;
+  }
+  li a:hover {
+    text-decoration: underline;
+  }
+  
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-items: end;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; 
+    font-size: xx-large;}
+    .div2 { grid-area: 1 / 2 / 2 / 3; 
+    display: flex;
+    flex-direction: column;}
+    .div3 { grid-area: 1 / 3 / 2 / 4;
+     }
+    .div4 { grid-area: 1 / 4 / 2 / 5;
+       }
+  
+      
